@@ -1,6 +1,7 @@
 # K-means algorithm
 
-In this project we are visualizing one of the machine learning algorithms,the k means clustering algorithm.
+In this project we are visualizing one of the machine learning algorithms,the k means clustering algorithm.The point
+of this project is to understand the way that k-means algorithm works.
 
 # 7 Colors
 
