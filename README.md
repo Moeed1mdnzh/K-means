@@ -9,3 +9,7 @@ At the first you run the file and the program wants you to enter the number of x
 After that,you have to enter the K parameter for segmentations.It shouldn't be larger than 7
 because there were no more colors for segmenting in matplotlib so i was only able to add 7
 colors for segmentations.
+
+# IMPORTANT
+ After entering the x and y values and the K parameter, It will show you the data points on a graph with K random points.
+ To see the segmentations you have the close the current graph and the segmentation graph will pop up.
