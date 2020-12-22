@@ -47,7 +47,7 @@ def K_means(k,dataX,dataY,rdn=[]):
     plt.title("K-means")
     limitMax = max([max(dataX),max(dataY)])
     limitMin = min([min(dataX),min(dataY)])
-    style = ["r.-","b.-","c.-","m.-","y.-","k.-","w.-"]
+    style = ["r.-","b.-","c.-","m.-","y.-","k.-"]
     assert k <= len(style),"Take a lower number for the k parameter"
     datas = list(zip(dataX,dataY))
     if rdn == []:
@@ -64,6 +64,6 @@ def K_means(k,dataX,dataY,rdn=[]):
     Mean(k,rdn,Final_points,(dataX,dataY))
 
 x_num,y_num = list(map(int,input("Enter the number of x and y values.\n Example : 100,100\n-->  ").split(",")))
-K = int(input("Enter the K parameter,Remember the maximum value for K is 7 because\nThe function only supports 7 colors for segmentations\n--> "))
+K = int(input("Enter the K parameter,Remember the maximum value for K is 6 because\nThe function only supports 6 colors for segmentations\n--> "))
 points = [np.random.randint(100,size=y_num),np.random.randint(100,size=y_num)]
 K_means(K,points[0],points[1],rdn=[])
